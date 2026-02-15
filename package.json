@@ -1,7 +1,7 @@
 {
   "name": "node-package",
   "version": "1.0.0",
-  "description": "learning node packages",
+  "description": "A simple function that capitalizes the first letter of a string",
   "keywords": [
     "node",
     "package",
