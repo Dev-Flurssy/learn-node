@@ -1,0 +1,17 @@
+{
+  "name": "node-package",
+  "version": "1.0.0",
+  "description": "learning node packages",
+  "keywords": [
+    "node",
+    "package",
+    "string"
+  ],
+  "license": "MIT",
+  "author": "Flurssy",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "run dev"
+  }
+}
