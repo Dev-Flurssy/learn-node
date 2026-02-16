@@ -1,0 +1,23 @@
+{
+  "name": "test-suite",
+  "version": "1.0.0",
+  "description": "first test suite",
+  "keywords": [
+    "test",
+    "debug"
+  ],
+  "license": "ISC",
+  "author": "flurssy",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "node-test": "node --test utils.test.js",
+    "jest-test": "jest",
+    "jest-test:coverage": "jest --coverage",
+    "node-test:coverage": "jest --experimental-test-coverage "
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.29.0",
+    "jest": "^30.2.0"
+  }
+}

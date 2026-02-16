@@ -1,0 +1,59 @@
+Hello world!
+the server is the computer that is running the application eg database queries etc. aka backend 
+the client is the task or the ui that is executed by the end user
+Headers are key value pairs that provide additional information about request and response
+Status code is a number used to represent the status of the response 
+100 - information
+200 - success 200-ok, 201-created, 
+300 - redirection 301-moved permanently, 
+400 - client 400-bad request, 401-unauthorized, 403-forbidden, 404-notfound, 429-too many request
+500 - server 500-internal server, 503-service unavailable
+
+Request Methods
+GET retrive data
+POST creste data
+PUT update data
+PATCH partial update
+DELETE remove data
+
+Http Payloads means http can carry message as payload to the server and server can also send backend
+REST Api is representational state Transfer is an architectural way of building Api
+eg GET/movie/:id
+JSON Javascript Object Notation
+
+Mastering Requests
+method the http method that is to be handled 
+route the path that will use the method
+handler is the callback function when the route and method matches
+
+Query Params start with ?. its used to send additional information and is optional
+Routes are registered in the order that we define them
+
+Headers handle all extra info response related and uses set method
+res.set({'Content-Type': application/html})
+it can also be multiple
+res.set({
+    'Content-Type': application/html,
+    'x-powered-by': 'Unicorns and rainbows'})
+Headers can be removed by using removeHeaders which receives the name of the Headers
+res.removeHeader('x-powered-by')
+
+Redirect is used to send to another page by giving the url of the page
+res.redirect('https://ulisesgascon.com/') or res.redirect(301, 'https://ulisesgascon.com/')
+res.send("") is used to send data to client, it converst data to string and set header to text/html unless stated otherwise
+
+res,json is used to stringify the data
+res.sendFile('/path/to/file.txt') is used to send file to client
+
+Middleware is a bridge between applications that allow communication and data sharing
+it follows a pipeline where it validates then goes on to the next pipeline or exits based on info it receives
+Middleware Scope
+Global is received for every entry or all requests made 
+Route for requests made to a route
+Error when an error is met by middleware function
+
+middleware(req, res, next){}
+
+
+
+

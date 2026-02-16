@@ -1,6 +1,6 @@
 {
-  "name": "node-package",
-  "version": "1.0.0",
+  "name": "capitalize-flurssy",
+  "version": "1.0.2",
   "description": "A simple function that capitalizes the first letter of a string",
   "keywords": [
     "node",
@@ -9,9 +9,13 @@
   ],
   "license": "MIT",
   "author": "Flurssy",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "run dev"
+  },
+  "dependencies": {
+    "ejs": "^4.0.1",
+    "express": "^5.2.1"
   }
 }

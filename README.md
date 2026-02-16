@@ -10,8 +10,10 @@ npm install Capitalize-flurssy
 
 ## Usage
 
+```
 const {capitalize} = require("capitalize-flurssy")
 console.log("welcome")
+```
 
 ```
 
