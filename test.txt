@@ -11,7 +11,7 @@ Status code is a number used to represent the status of the response
 
 Request Methods
 GET retrive data
-POST creste data
+POST create data
 PUT update data
 PATCH partial update
 DELETE remove data

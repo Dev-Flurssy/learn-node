@@ -1,3 +1,3 @@
 export default {
-  modulePathIgnorePatterns: ["<rootDir>//"],
+  modulePathIgnorePatterns: ["<rootDir>/start/"],
 };
